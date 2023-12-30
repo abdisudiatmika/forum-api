@@ -5,3 +5,7 @@ config/database/test.json
 coverage
 .env
 *.pem
+studentnote.txt
+settingnginx.txt
+
+
