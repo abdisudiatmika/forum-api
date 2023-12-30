@@ -25,7 +25,7 @@ describe("HTTP server", () => {
       });
       const responseJson = JSON.parse(response.payload);
       expect(response.statusCode).toEqual(200);
-      expect(responseJson.value).toEqual("Hello dic");
+      expect(responseJson.value).toEqual("hello cod");
     });
   });
   it("should handle server error correctly", async () => {
